@@ -4,8 +4,10 @@
 @import "layout";
 
 body {
-    background-image: url("/images/DSC_2751.JPG"), url("/images/DSC_2751.JPG");
-    background-color: #cccccc;
+    background-image: url('/images/_m.jpg'); 
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
   }
 
 .nav-link {
@@ -17,7 +19,7 @@ body {
     height: auto;
   }
   .carousel-item img {
-      height: 500px;
+      height: auto;
       object-fit: cover;
       }
   .carousel-indicators li {

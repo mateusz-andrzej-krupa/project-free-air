@@ -1,9 +1,9 @@
 .carousel-inner, .carousel-item {
-  height: 500px;
+  height: auto;
 }
 
 .carousel-item img {
-  height: 300px;
+  height: auto;
   object-fit: cover;
 }
 
