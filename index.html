@@ -16,12 +16,19 @@
     background-attachment: fixed;
     "
     >
-        <button type="button" class="btn m-2 btn-sm bg-light" data-toggle="collapse" href="#menu" role="button" aria-expanded="false" aria-controls="collapseExample">
-            <h5>
-            {
-                <img class="bg-light " src="/images/logo 3lR free air.png"  height="25px" width="25px" alt="Responsive image">
-            }
-            </h5></button>
+        <!-- logo -->
+        <div class="d-flex flex-row align-items-center">
+            <button type="button" class="btn my-3 mr-3 btn-sm bg-light" data-toggle="collapse" href="#menu" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <h5>
+                {
+                    <img class="bg-light rounded-circle" src="/images/logo 3lR free air.png"  height="25px" width="25px" alt="Responsive image">
+                }
+                </h5>
+            </button>
+            <p class="text-light m-0"> { </p>
+                <h2 class="text-danger mx-2 my-0"> free air </h2> 
+                    <p class="text-light mt-4"> | composed from passion }</p>
+        </div>  
             <div class="row">
             <!-- menu -->
             <div class="col-2 bg-light border rounded" id="menu">
@@ -38,12 +45,11 @@
               </div>
             </div>
             <!-- pages -->
-            <div class=" text-light col-10 d-flex justify-content-center align-items-center ">
+            <div class=" text-light col-10 d-flex justify-content-center">
                 <!-- free air -->
               <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                    <p class="">{ free air - composed from passion }</p>
-                    <hr />
+                <div class="tab-pane fade show active align-items-start" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <!-- <p class="">{ free air - composed from passion }</p> -->
                 </div>
                 <!-- yt -->
                 <div class="tab-pane fade" id="v-pills-yt" role="tabpanel" aria-labelledby="v-pills-yt-tab">
