@@ -33,3 +33,15 @@ body {
       height: 300px;
       object-fit: cover;
       }
+
+      // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .carousel-inner, .carousel-item {
+        height: 500px;
+      }
+      .carousel-item img {
+          height: 500px;
+          object-fit: cover;
+          }
+    
+}
